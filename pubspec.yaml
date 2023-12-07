@@ -6,11 +6,13 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.9.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   xterm:
-    git: https://github.com/TerminalStudio/xterm.dart
+    git:
+      url: https://github.com/TerminalStudio/xterm.dart
+      ref: master
 
   flutter_acrylic: ^1.0.0
   pty:
@@ -22,12 +24,12 @@ dependencies:
     sdk: flutter
   # just_audio: ^0.9.5
   global_repository:
-    git: https://github.com/nightmare-space/global_repository
+    git: https://github.com/btwiuse/global_repository
   cupertino_icons: ^1.0.2
   dio: ^4.0.0
   webview_flutter: ^2.0.12
   pseudo_terminal_utils:
-    git: https://github.com/Termare/pseudo_terminal_utils
+    git: https://github.com/btwiuse/pseudo_terminal_utils
 dev_dependencies:
   flutter_test:
     sdk: flutter
